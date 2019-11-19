@@ -19,7 +19,7 @@ class MetaParser extends AbstractParser implements ParserInterface
     /** @var string 著作権情報 */
     public $copyright;
     /** @var string 対象ファイル*/
-    protected $sourceFile = 'php-chunked-xhtml/index.html';
+    protected $sourceFile = 'index.html';
 
     /**
      * パース

@@ -17,10 +17,10 @@ use SplFileObject;
 class KeywordParser extends AbstractParser implements ParserInterface
 {
     /** @var string 元のファイル */
-    protected $sourceFile = 'php-chunked-xhtml/reserved.keywords.html';
+    protected $sourceFile = 'reserved.keywords.html';
 
     /** @var string 出力ファイル名 */
-    protected $outputFile = 'php.kwd';
+    protected $outputFile = 'php-keyword.kwd';
 
     /** @var array */
     public $keywords = [];
